@@ -27,6 +27,22 @@ namespace Kanban
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            double ventanaAncho = ActualWidth;
+            double ventanaAlto = ActualHeight;
+
+            // Obtén el tamaño del cuadro de diálogo
+            double dialogAncho = DialogGrid.ActualWidth;
+            double dialogAlto = DialogGrid.ActualHeight;
+
+            // Calcula la posición para centrar el cuadro de diálogo
+            double left = (ventanaAncho - dialogAncho) / 2;
+            double top = (ventanaAlto - dialogAlto) / 2;
+
+            // Posiciona el cuadro de diálogo en el centro
+            Canvas.SetLeft(DialogGrid, left);
+            Canvas.SetTop(DialogGrid, top);
+
+            // Mostrar el cuadro de diálogo
             DialogGrid.Visibility = Visibility.Visible;
         }
 
