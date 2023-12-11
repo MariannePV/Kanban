@@ -1,0 +1,15 @@
+C:\Github\Kanban\Kanban\bin\Debug\Kanban.exe.config
+C:\Github\Kanban\Kanban\bin\Debug\Kanban.exe
+C:\Github\Kanban\Kanban\bin\Debug\Kanban.pdb
+C:\Github\Kanban\Kanban\obj\Debug\Kanban.csproj.AssemblyReference.cache
+C:\Github\Kanban\Kanban\obj\Debug\MainWindow.g.cs
+C:\Github\Kanban\Kanban\obj\Debug\App.g.cs
+C:\Github\Kanban\Kanban\obj\Debug\Kanban_MarkupCompile.cache
+C:\Github\Kanban\Kanban\obj\Debug\Kanban_MarkupCompile.lref
+C:\Github\Kanban\Kanban\obj\Debug\MainWindow.baml
+C:\Github\Kanban\Kanban\obj\Debug\Kanban.g.resources
+C:\Github\Kanban\Kanban\obj\Debug\Kanban.Properties.Resources.resources
+C:\Github\Kanban\Kanban\obj\Debug\Kanban.csproj.GenerateResource.cache
+C:\Github\Kanban\Kanban\obj\Debug\Kanban.csproj.CoreCompileInputs.cache
+C:\Github\Kanban\Kanban\obj\Debug\Kanban.exe
+C:\Github\Kanban\Kanban\obj\Debug\Kanban.pdb
