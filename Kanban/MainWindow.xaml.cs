@@ -30,38 +30,38 @@ namespace Kanban
             double ventanaAncho = ActualWidth;
             double ventanaAlto = ActualHeight;
 
-            // Obtén el tamaño del cuadro de diálogo
+            // Pillem la mida del quadre de diàleg
             double dialogAncho = DialogGrid.ActualWidth;
             double dialogAlto = DialogGrid.ActualHeight;
 
-            // Calcula la posición para centrar el cuadro de diálogo
+            // Calcula la posició per centrar el quadre de diàleg
             double left = (ventanaAncho - dialogAncho) / 2;
             double top = (ventanaAlto - dialogAlto) / 2;
 
-            // Posiciona el cuadro de diálogo en el centro
+            // Posiciona el quadre de diàleg al centre
             Canvas.SetLeft(DialogGrid, left);
             Canvas.SetTop(DialogGrid, top);
 
             // Mostrar el cuadro de diálogo
             DialogGrid.Visibility = Visibility.Visible;
+
+            CrearTasca tasca = new CrearTasca();
+            tasca.ShowDialog();
         }
 
         private void Aceptar_Click(object sender, RoutedEventArgs e)
         {
-            // Ocultar el cuadro de diálogo después de hacer algo con los datos
+            
             DialogGrid.Visibility = Visibility.Collapsed;
 
-            // Obtiene los datos desde el cuadro de diálogo
             string nombre = txtNombre.Text;
             string descripcion = txtDescripcion.Text;
 
-            // Lógica para agregar el Post-it en la zona correspondiente
             AgregarPostItALaZona(nombre, descripcion);
         }
         private void AgregarPostItALaZona(string nombre, string descripcion)
         {
-            // Lógica para agregar el Post-it en la zona correspondiente
-            // ...
+            
         }
 
     }

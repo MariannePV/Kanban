@@ -30,7 +30,7 @@
                     </Grid.ColumnDefinitions>
 
                     <TextBlock Text="" Grid.Column="0"/>
-                    <TextBlock Text="To-Do" FontWeight="Bold" Grid.Column="1" HorizontalAlignment="Center" FontSize="20"/>
+                    <TextBlock Text="TO-DO" FontWeight="Bold" Grid.Column="1" HorizontalAlignment="Center" FontSize="20"/>
                     <Button Grid.Column="2" FontSize="28" HorizontalAlignment="Right" VerticalAlignment="Top" 
                      Background="Transparent" BorderBrush="Transparent" Margin="0,-7,0,0" Click="Button_Click">+</Button>
                 </Grid>

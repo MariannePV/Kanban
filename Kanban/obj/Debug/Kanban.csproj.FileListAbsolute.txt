@@ -13,3 +13,5 @@ C:\Github\Kanban\Kanban\obj\Debug\Kanban.csproj.GenerateResource.cache
 C:\Github\Kanban\Kanban\obj\Debug\Kanban.csproj.CoreCompileInputs.cache
 C:\Github\Kanban\Kanban\obj\Debug\Kanban.exe
 C:\Github\Kanban\Kanban\obj\Debug\Kanban.pdb
+C:\Github\Kanban\Kanban\obj\Debug\CrearTasca.g.cs
+C:\Github\Kanban\Kanban\obj\Debug\CrearTasca.baml
