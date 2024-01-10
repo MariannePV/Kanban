@@ -7,6 +7,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -27,5 +28,25 @@ namespace Kanban
         {
             this.DragMove(); //Mètode per poder moure la finestra
         }
+
+        private void SeleccionarColor_Click(object sender, RoutedEventArgs e)
+        {
+            ColorDialog colorDialog = new ColorDialog();
+
+            if (colorDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                System.Drawing.Color colorSeleccionado = colorDialog.Color;
+                var colorWpf = Color.FromArgb(colorSeleccionado.A, colorSeleccionado.R, colorSeleccionado.G, colorSeleccionado.B);
+
+                ColorRectangle.Fill = new SolidColorBrush(colorWpf);
+
+            }
+        }
+
+        private void CerrarVentana_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }
