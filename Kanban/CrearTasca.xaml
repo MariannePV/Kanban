@@ -3,20 +3,88 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:local="clr-namespace:Kanban"
         mc:Ignorable="d"
         WindowStyle="None"
         MouseDown="Window_MouseDown"
-        Title="CrearTasca" Height="350" Width="500">
+        Title="CrearTasca" Height="400" Width="420">
     <Grid>
         <StackPanel Margin="15">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Orientation="Horizontal" Margin ="0,0,0,10">
+                    <TextBlock FontSize="16" Margin="0,0,10,0">Títol:</TextBlock>
+                    <TextBox Width="110" BorderThickness="1.5">
+                        <TextBox.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="8"/>
+                            </Style>
+                        </TextBox.Resources>
+                    </TextBox>
+                </StackPanel>
+
+                <Button Content="X" Background="Transparent" Foreground="Red" BorderBrush="Transparent"
+                Width="30" Height="30" FontSize="24" VerticalAlignment="Top"
+                Margin="0,-9,5,0" Click="CerrarVentana_Click" Grid.Column="1"/>
+            </Grid>
+            
+            <StackPanel Orientation="Horizontal" Margin ="0,0,0,8">
+                <TextBlock FontSize="16">Descripció:</TextBlock>
+            </StackPanel>
             <StackPanel Orientation="Horizontal" Margin ="0,0,0,10">
-                <TextBlock FontSize="16" Margin="0,0,10,0">Títol:</TextBlock>
-                <TextBox Width="110"></TextBox>
+                <TextBox Height="89" Width="370" BorderThickness="1.5">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="8"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin ="0,0,0,8">
+                <TextBlock FontSize="16">Responsable</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin ="0,0,0,12">
+                <TextBox Height="24" Width="180" BorderThickness="1.5">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="8"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin ="0,0,0,10">
+                <TextBlock FontSize="16" Margin="0,0,10,0">Data Finalització:</TextBlock>
+                <DatePicker FirstDayOfWeek="Monday" BorderThickness="1.2">
+                    <DatePicker.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="8"/>
+                        </Style>
+                    </DatePicker.Resources>
+                </DatePicker>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin ="0,0,0,10">
+                <TextBlock FontSize="16">Etiquetes:</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin ="0,0,0,10">
+                <TextBox Height="24" Width="180" BorderThickness="1.5">
+                    <TextBox.Resources>
+                        <Style TargetType="{x:Type Border}">
+                            <Setter Property="CornerRadius" Value="8"/>
+                        </Style>
+                    </TextBox.Resources>
+                </TextBox>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <TextBlock FontSize="16" Margin="0,0,10,0">Descripció:</TextBlock>
+                <TextBlock FontSize="16" Margin="0,0,10,0">Color de fons:</TextBlock>
+                <Rectangle x:Name="ColorRectangle" Width="24" Height="24" Fill="Transparent" Stroke="Black" StrokeThickness="1"/>
+                <Button Content="Seleccionar Color" Click="SeleccionarColor_Click" Margin="12,0,0,0"/>
             </StackPanel>
         </StackPanel>
     </Grid>
 </Window>
+    
