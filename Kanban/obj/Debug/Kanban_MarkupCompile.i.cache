@@ -9,12 +9,21 @@ Kanban
 none
 false
 DEBUG;TRACE
+<<<<<<< Updated upstream
 C:\Github\Kanban\Kanban\App.xaml
 22121593526
 
 7-1293434743
 13-38814620
 CrearTasca.xaml;MainWindow.xaml;
+=======
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\App.xaml
+2-1841048585
+
+71190960236
+13-38814620
+MainWindow.xaml;Tasca.xaml;
+>>>>>>> Stashed changes
 
 True
 
