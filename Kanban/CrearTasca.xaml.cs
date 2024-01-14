@@ -25,7 +25,7 @@ namespace Kanban
         public CrearTasca(MainWindow mainWindow) //Primer constructor de la classeTasca
         {
             InitializeComponent();
-            this.mainWindow = mainWindow; 
+            this.mainWindow = mainWindow;
             this.DataContext = this;
             txtDataCreacio.Text = DateTime.Now.ToString("yyyy-MM-dd");
             ActualizarComboBox(mainWindow.taulers);
@@ -37,7 +37,7 @@ namespace Kanban
         }
         public CrearTasca(MainWindow mainWindow, Tasca tascaAEditar) : this(mainWindow) //Segon constructor només l'utilitzem al editar la tasca
         {
-            this.tascaAEditar = tascaAEditar; 
+            this.tascaAEditar = tascaAEditar;
 
             // Posem els valors de la tasca en la finestra
             if (tascaAEditar != null)
@@ -155,7 +155,7 @@ namespace Kanban
                 case 2:
                     return Prioritat.Alta;
                 default:
-                    return Prioritat.Baixa; 
+                    return Prioritat.Baixa;
             }
         }
 
@@ -167,7 +167,7 @@ namespace Kanban
 
         private void AgregarEtiqueta_Click(object sender, RoutedEventArgs e)
         {
-            
+
         }
 
         private void CerrarVentana_Click(object sender, RoutedEventArgs e)

@@ -159,7 +159,8 @@ namespace Kanban
             if (taulers.Count() == 1)   //Si només hi ha un tauler
             {
                 MessageBox.Show("No pots esborrar l'últim tauler", "Error d'esborrat", MessageBoxButton.OK, MessageBoxImage.Error);
-            } else
+            }
+            else
             {
                 // Busca un Tauler existente con el mismo Id
                 Tauler taulerExistent = taulers.FirstOrDefault(t => t.Id == id);

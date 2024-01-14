@@ -20,32 +20,29 @@ namespace Kanban
     /// </summary>
     public partial class CrearTauler : Window
     {
-        private MainWindow mainWindow; // Agrega este campo
+        private MainWindow mainWindow;
         string colorString;
 
-        public CrearTauler(MainWindow mainWindow, Tauler taulerExistente = null)
+        public CrearTauler(MainWindow mainWindow, Tauler taulerExistent = null)
         {
             InitializeComponent();
-            this.mainWindow = mainWindow; // Asigna la referencia de MainWindow
+            this.mainWindow = mainWindow; //Assignem la referència del mainwindow
             btnEliminar.Visibility = Visibility.Collapsed;
 
-            // Inicializa los controles con los valores del tablero existente si se proporciona
-            if (taulerExistente != null)
+            //Si hi ha un tauler existent, emplenem els valors amb els corresponents
+            if (taulerExistent != null)
             {
-                txtTitol.Text = taulerExistente.Titol;
-                // ...
+                txtTitol.Text = taulerExistent.Titol;
 
-                // Puedes manejar las tareas asociadas al tablero si lo deseas
-                // ...
-
-                // Actualiza el color
-                var colorWpf = (Color)ColorConverter.ConvertFromString(taulerExistente.Color);
+                //Actualitzar el color
+                var colorWpf = (Color)ColorConverter.ConvertFromString(taulerExistent.Color);
                 ColorRectangle.Fill = new SolidColorBrush(colorWpf);
 
                 colorString = colorWpf.ToString();
 
-                idTauler.Text = taulerExistente.Id.ToString();
+                idTauler.Text = taulerExistent.Id.ToString();
 
+                //Fem visible el botó d'eliminar
                 btnEliminar.Visibility = Visibility.Visible;
             }
         }
@@ -55,6 +52,7 @@ namespace Kanban
             this.DragMove(); //Mètode per poder moure la finestra
         }
 
+        //Selecció del color
         private void SeleccionarColor_Click(object sender, RoutedEventArgs e)
         {
             ColorDialog colorDialog = new ColorDialog();
@@ -77,7 +75,6 @@ namespace Kanban
 
         private void DesarTauler(object sender, RoutedEventArgs e)
         {
-            // Supongamos que tienes TextBoxes llamados txtTitol y txtColor en tu nueva ventana
             string titol = txtTitol.Text;
             string color = colorString;
             int id = 0;
@@ -88,10 +85,9 @@ namespace Kanban
                 id = int.Parse(idTauler.Text);
             }
 
-            // Llama al método de la ventana principal para agregar un nuevo Tauler
+            //Afegim un nou tauler mitjançant el mètode del mainWindow
             mainWindow.ActualitzarTauler(id, titol, color);
 
-            // Cierra la ventana
             Close();
         }
 
@@ -99,10 +95,9 @@ namespace Kanban
         {
             int id = int.Parse(idTauler.Text);
 
-            // Llama al método de la ventana principal para agregar un nuevo Tauler
+            //Eliminem el tauler mitjançant el mètode del mainWindow
             mainWindow.EliminarTauler(id);
 
-            // Cierra la ventana
             Close();
         }
 

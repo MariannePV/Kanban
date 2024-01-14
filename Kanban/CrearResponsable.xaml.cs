@@ -55,10 +55,9 @@ namespace Kanban
             }
             else
             {
-                // Update existing Responsable or create a new one
+                //Actualitzem el responsable actual o en creem un de nou
                 if (responsableExistent != null)
                 {
-                    // Edit existing Responsable
                     responsableExistent.Nom = txtNom.Text;
                     responsableExistent.Cognoms = txtCognoms.Text;
                     responsableExistent.Email = txtEmail.Text;
@@ -67,7 +66,6 @@ namespace Kanban
                 }
                 else
                 {
-                    // Create new Responsable
                     Responsable responsable = new Responsable
                     {
                         Nom = txtNom.Text,

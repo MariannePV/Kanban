@@ -19,7 +19,7 @@ namespace Kanban
     /// </summary>
     public partial class GestionarResponsables : Window
     {
-        private string selectedResponsableId; // Add this field
+        private string selectedResponsableId;
         //Declarem un llistat de taulers
         public List<Responsable> responsables = new List<Responsable>();
 
@@ -27,6 +27,7 @@ namespace Kanban
         {
             InitializeComponent();
 
+            //Creem el primer responsable
             responsables.Add(new Responsable()
             {
                 Nom = "Sense assignar",
@@ -49,12 +50,12 @@ namespace Kanban
 
         public void ActualitzarResponsable(Responsable resp)
         {
-            // Check if a Responsable with the same ID already exists
+            //Comprovem si existeix un responsable amb la id indicada
             Responsable existingResponsable = responsables.FirstOrDefault(r => r.Id == resp.Id);
 
             if (existingResponsable != null)
             {
-                // Update the existing Responsable with the new data
+                //Actualitzem el responsable en qüestió
                 existingResponsable.Nom = resp.Nom;
                 existingResponsable.Cognoms = resp.Cognoms;
                 existingResponsable.Email = resp.Email;
@@ -63,7 +64,7 @@ namespace Kanban
             }
             else
             {
-                // If no existing Responsable with the same ID, add the new one
+                //En cas que no existeixi cap responsable amb la id, en creem un de nou
                 responsables.Add(resp);
             }
         }
@@ -85,26 +86,25 @@ namespace Kanban
             }
         }
 
+        //Per poder accedir al id associat a la llista quan s'ha carregat
         private void txtID(object sender, RoutedEventArgs e)
         {
             TextBlock txtBlock = sender as TextBlock;
 
-            // Access the DataContext, which should be the data item (Responsable)
+            //Accedim a la data generada
             if (txtBlock.DataContext is Responsable responsable)
             {
-                // Store the Id property in the field
+                //Guardem la ID del responsable
                 selectedResponsableId = responsable.Id.ToString();
-
-                // Do something with the id...
             }
         }
 
         private void EsborrarResponsable(object sender, MouseButtonEventArgs e)
         {
-            // Check if any item is selected
+            //Mira si hi ha algun item seleccionat
             if (llistaResponsables.SelectedItem != null)
             {
-                // Get the selected Responsable from the ListBox
+                //Obtenim el responsable de l'item seleccionat
                 Responsable responsableToRemove = llistaResponsables.SelectedItem as Responsable;
 
                 if (responsableToRemove != null)
@@ -114,21 +114,17 @@ namespace Kanban
                         MessageBox.Show("Aquest registre no es pot esborrar", "Error d'esborrat", MessageBoxButton.OK, MessageBoxImage.Error);
                     } else
                     {
-                        // Remove the Responsable from the list
+                        //Eliminem el responsable
                         responsables.Remove(responsableToRemove);
 
-                        // Refresh the ListBox
+                        //Actualitzem la llista
                         llistaResponsables.Items.Refresh();
                     }
-                }
-                else
-                {
-                    MessageBox.Show("Unable to retrieve selected Responsable.");
                 }
             }
             else
             {
-                MessageBox.Show("No item selected.");
+                MessageBox.Show("No s'ha seleccionat cap ítem", "Error d'esborrat", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }

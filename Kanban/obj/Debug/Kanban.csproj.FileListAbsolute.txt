@@ -101,7 +101,5 @@ C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\CrearResponsable.g.cs
 C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\CrearResponsable.baml
 C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\CrearResponsable.g.cs
 C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\CrearResponsable.baml
-C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\CrearResponsable.g.cs
-C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\GestionarResponsables.g.cs
-C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\CrearResponsable.baml
-C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\GestionarResponsables.baml
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\CrearResponsable.g.cs
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\CrearResponsable.baml
