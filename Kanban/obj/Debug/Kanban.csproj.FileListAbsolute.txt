@@ -15,3 +15,93 @@ C:\Github\Kanban\Kanban\obj\Debug\Kanban.exe
 C:\Github\Kanban\Kanban\obj\Debug\Kanban.pdb
 C:\Github\Kanban\Kanban\obj\Debug\CrearTasca.g.cs
 C:\Github\Kanban\Kanban\obj\Debug\CrearTasca.baml
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\bin\Debug\Kanban.exe.config
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\bin\Debug\Kanban.exe
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\bin\Debug\Kanban.pdb
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\Kanban.csproj.AssemblyReference.cache
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\CrearTasca.g.cs
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\MainWindow.g.cs
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\App.g.cs
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\Kanban_MarkupCompile.cache
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\Kanban_MarkupCompile.lref
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\CrearTasca.baml
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\MainWindow.baml
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\Kanban.g.resources
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\Kanban.Properties.Resources.resources
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\Kanban.csproj.GenerateResource.cache
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\Kanban.csproj.CoreCompileInputs.cache
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\Kanban.exe
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\Kanban.pdb
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\CrearTauler.g.cs
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\CrearTauler.baml
+C:\Users\nilvi\Desktop\Kanban\Kanban\bin\Debug\Kanban.exe.config
+C:\Users\nilvi\Desktop\Kanban\Kanban\bin\Debug\Kanban.exe
+C:\Users\nilvi\Desktop\Kanban\Kanban\bin\Debug\Kanban.pdb
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\Kanban.csproj.AssemblyReference.cache
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\CrearTasca.g.cs
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\CrearTauler.g.cs
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\MainWindow.g.cs
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\App.g.cs
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\Kanban_MarkupCompile.cache
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\Kanban_MarkupCompile.lref
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\CrearTasca.baml
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\CrearTauler.baml
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\MainWindow.baml
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\Kanban.g.resources
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\Kanban.Properties.Resources.resources
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\Kanban.csproj.GenerateResource.cache
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\Kanban.csproj.CoreCompileInputs.cache
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\Kanban.exe
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\Kanban.pdb
+C:\Users\USER\Desktop\Kanban\Kanban\bin\Debug\Kanban.exe.config
+C:\Users\USER\Desktop\Kanban\Kanban\bin\Debug\Kanban.exe
+C:\Users\USER\Desktop\Kanban\Kanban\bin\Debug\Kanban.pdb
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\Kanban.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\CrearTasca.g.cs
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\CrearTauler.g.cs
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\MainWindow.g.cs
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\App.g.cs
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\Kanban_MarkupCompile.cache
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\Kanban_MarkupCompile.lref
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\CrearTasca.baml
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\CrearTauler.baml
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\MainWindow.baml
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\Kanban.g.resources
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\Kanban.Properties.Resources.resources
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\Kanban.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\Kanban.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\Kanban.exe
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\Kanban.pdb
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\GestionarResponsables.g.cs
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\GestionarResponsables.baml
+C:\Users\maria\Desktop\Kanban\Kanban\bin\Debug\Kanban.exe.config
+C:\Users\maria\Desktop\Kanban\Kanban\bin\Debug\Kanban.exe
+C:\Users\maria\Desktop\Kanban\Kanban\bin\Debug\Kanban.pdb
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\Kanban.csproj.AssemblyReference.cache
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\CrearTasca.g.cs
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\CrearTauler.g.cs
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\GestionarResponsables.g.cs
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\MainWindow.g.cs
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\App.g.cs
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\Kanban_MarkupCompile.cache
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\Kanban_MarkupCompile.lref
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\CrearTasca.baml
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\CrearTauler.baml
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\GestionarResponsables.baml
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\MainWindow.baml
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\Kanban.g.resources
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\Kanban.Properties.Resources.resources
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\Kanban.csproj.GenerateResource.cache
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\Kanban.csproj.CoreCompileInputs.cache
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\Kanban.exe
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\Kanban.pdb
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\GestionarResponsables.g.cs
+C:\Users\maria\Desktop\DAM\2n DAM\M13 - Projecte\MiniProjecte\Kanban\Kanban\obj\Debug\GestionarResponsables.baml
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\CrearResponsable.g.cs
+C:\Users\USER\Desktop\Kanban\Kanban\obj\Debug\CrearResponsable.baml
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\CrearResponsable.g.cs
+C:\Users\maria\Desktop\Kanban\Kanban\obj\Debug\CrearResponsable.baml
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\CrearResponsable.g.cs
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\GestionarResponsables.g.cs
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\CrearResponsable.baml
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\GestionarResponsables.baml

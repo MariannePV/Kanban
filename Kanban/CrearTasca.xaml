@@ -7,8 +7,9 @@
         xmlns:local="clr-namespace:Kanban"
         mc:Ignorable="d"
         WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
         MouseDown="Window_MouseDown"
-        Title="CrearTasca" Height="400" Width="420">
+        Title="CrearTasca" Height="545" Width="445">
     <Grid>
         <StackPanel Margin="15">
             <Grid>
@@ -19,7 +20,7 @@
 
                 <StackPanel Orientation="Horizontal" Margin ="0,0,0,10">
                     <TextBlock FontSize="16" Margin="0,0,10,0">Títol:</TextBlock>
-                    <TextBox Width="110" BorderThickness="1.5">
+                    <TextBox Name="txtTitle" Width="110" BorderThickness="1.5">
                         <TextBox.Resources>
                             <Style TargetType="{x:Type Border}">
                                 <Setter Property="CornerRadius" Value="8"/>
@@ -32,12 +33,12 @@
                 Width="30" Height="30" FontSize="24" VerticalAlignment="Top"
                 Margin="0,-9,5,0" Click="CerrarVentana_Click" Grid.Column="1"/>
             </Grid>
-            
+
             <StackPanel Orientation="Horizontal" Margin ="0,0,0,8">
                 <TextBlock FontSize="16">Descripció:</TextBlock>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin ="0,0,0,10">
-                <TextBox Height="89" Width="370" BorderThickness="1.5">
+                <TextBox Name="txtDescription" Height="89" Width="370" BorderThickness="1.5" TextWrapping="Wrap">
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="8"/>
@@ -49,7 +50,7 @@
                 <TextBlock FontSize="16">Responsable</TextBlock>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin ="0,0,0,12">
-                <TextBox Height="24" Width="180" BorderThickness="1.5">
+                <TextBox Name="txtResponsable" Height="24" Width="180" BorderThickness="1.5">
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="8"/>
@@ -58,8 +59,12 @@
                 </TextBox>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin ="0,0,0,10">
+                <TextBlock FontSize="16" Margin="0,0,10,0">Data de creació:</TextBlock>
+                <TextBlock x:Name="txtDataCreacio" FontSize="16" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin ="0,0,0,10">
                 <TextBlock FontSize="16" Margin="0,0,10,0">Data Finalització:</TextBlock>
-                <DatePicker FirstDayOfWeek="Monday" BorderThickness="1.2">
+                <DatePicker Name="selectedDate" FirstDayOfWeek="Monday" BorderThickness="1.2">
                     <DatePicker.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="8"/>
@@ -70,8 +75,8 @@
             <StackPanel Orientation="Horizontal" Margin ="0,0,0,10">
                 <TextBlock FontSize="16">Etiquetes:</TextBlock>
             </StackPanel>
-            <StackPanel Orientation="Horizontal" Margin ="0,0,0,10">
-                <TextBox Height="24" Width="180" BorderThickness="1.5">
+            <StackPanel Orientation="Horizontal" Margin ="0,0,0,12">
+                <TextBox Name="txtLabel" Height="24" Width="180" BorderThickness="1.5">
                     <TextBox.Resources>
                         <Style TargetType="{x:Type Border}">
                             <Setter Property="CornerRadius" Value="8"/>
@@ -79,10 +84,30 @@
                     </TextBox.Resources>
                 </TextBox>
             </StackPanel>
-            <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal" Margin ="0,0,0,14">
+                <TextBlock FontSize="16" Margin="0,0,10,0">Prioritat:</TextBlock>
+                <ComboBox Name="cmbPrioritat" Height="24" SelectedIndex="0">
+                    <ComboBoxItem Content="Baixa"/>
+                    <ComboBoxItem Content="Mitjana"/>
+                    <ComboBoxItem Content="Alta"/>
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <TextBlock FontSize="16" Margin="0,0,10,0">Tauler:</TextBlock>
+                <ComboBox Name="cmbTauler" DisplayMemberPath="Titol"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal"  Margin ="0,0,0,10">
                 <TextBlock FontSize="16" Margin="0,0,10,0">Color de fons:</TextBlock>
                 <Rectangle x:Name="ColorRectangle" Width="24" Height="24" Fill="Transparent" Stroke="Black" StrokeThickness="1"/>
-                <Button Content="Seleccionar Color" Click="SeleccionarColor_Click" Margin="12,0,0,0"/>
+                <Button Content="Seleccionar Color" Click="SeleccionarColor_Click" Margin="12,0,70,0" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock x:Name="lblError" Foreground="Red" Margin="0,5,10,0" FontSize="10" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Guardar" Background="Transparent" Foreground="Green" BorderBrush="Transparent"
+                        FontSize="16" Click="Guardar_Click" FontWeight="Bold"/>
             </StackPanel>
         </StackPanel>
     </Grid>

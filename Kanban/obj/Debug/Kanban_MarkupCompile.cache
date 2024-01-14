@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Github\Kanban\Kanban\obj\Debug\
+C:\Users\nilvi\Desktop\Kanban\Kanban\obj\Debug\
 Kanban
 none
 false
 DEBUG;TRACE
-C:\Github\Kanban\Kanban\App.xaml
-22121593526
+C:\Users\nilvi\Desktop\Kanban\Kanban\App.xaml
+5-1439006294
 
-61079754432
+13293343769
 15767508510
-CrearTasca.xaml;MainWindow.xaml;
+CrearResponsable.xaml;CrearTasca.xaml;CrearTauler.xaml;GestionarResponsables.xaml;MainWindow.xaml;
 
 False
 

@@ -57,7 +57,32 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CrearResponsable.xaml.cs">
+      <DependentUpon>CrearResponsable.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CrearTauler.xaml.cs">
+      <DependentUpon>CrearTauler.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Etiqueta.cs" />
+    <Compile Include="GestionarResponsables.xaml.cs">
+      <DependentUpon>GestionarResponsables.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Responsable.cs" />
+    <Compile Include="Tasca.cs" />
+    <Compile Include="Tauler.cs" />
+    <Page Include="CrearResponsable.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CrearTasca.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CrearTauler.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GestionarResponsables.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -95,6 +120,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="Fonts\Italiana-Regular.ttf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -102,6 +128,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ResponsablesLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\eliminar.png" />
+    <Resource Include="Images\eliminarFull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\delete.png" />
+    <Resource Include="Images\edit.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
